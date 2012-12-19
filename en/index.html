@@ -17,9 +17,9 @@
 
   </head>
 
-  <body>
+  <body itemscope itemtype="http://schema.org/Organization>l"
     <header class="hero-unit">
-      <h1><img src="../img/icon.ico" />Trizero<sup><small><a href="/">it</a>|en</small></sup></h1>
+      <h1 itemprop="name"><img itemprop="logo" src="../img/icon.ico" />Trizero<sup><small><a href="/">it</a>|en</small></sup></h1>
     </header>
 
     <!--[if lt IE 7]>
@@ -135,23 +135,23 @@
           <div id="map_canvas"></div>
           </div>
         </div>
-        <div class="span6">
+        <div class="span6" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
           <strong>TRIZERO srl</strong><br>
           <div class="row-fluid">
             <div class="span6">
               <address>
                 <dl>
                   <dt>Address</dt>
-                  <dd>Via Provinciale, 12 - 23851 Galbiate (LC)</dd>
+                  <dd><span itemprop="streetAddress">Via Provinciale, 12</span> - <span itemprop="postalCode">23851</span> <span itemprop="addressLocality">Galbiate</span> (<span itempropo="addressRegion">LC</span>)</dd>
 
                   <dt>Email</dt>
-                  <dd><a href="mailto:info@trizero.it">info@trizero.it</a></dd>
+                  <dd><a href="mailto:info@trizero.it" itemprop="email">info@trizero.it</a></dd>
 
                   <dt>Telephone</dt>
-                  <dd>+39 0341 541806</dd>
+                  <dd itemprop="telephone">+39 0341 541806</dd>
 
                   <dt>Fax</dt>
-                  <dd>+39 0341 241955</dd>
+                  <dd itemprop="faxNumber">+39 0341 241955</dd>
                 </dl>
               </address>
             </div>
